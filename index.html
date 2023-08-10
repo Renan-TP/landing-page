@@ -1,0 +1,11 @@
+---
+  layout: default
+  title: Home
+  show_sidebar: true
+---
+{% if page.show_sidebar %}
+  <div class="sidebar">
+    sidebar content
+  </div>
+{% endif %}
+<h1>{{ "Hello World!" | capitalize }}</h1>
