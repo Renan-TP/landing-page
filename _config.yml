@@ -4,20 +4,20 @@ collections:
 
 defaults:
   - scope:
-      path: "blog"
+      path: 
       type: "authors"
     values:
       layouts: "author"
   - scope:
-      path: "blog"
+      path: ""
       type: "posts"
     values:
       layout: "post"
   - scope:
-      path: "blog"
+      path: ""
     values:
       layout: "default"
-
+baseurl: /landing-page
 plugins:
   - jekyll-feed
   - jekyll-sitemap
